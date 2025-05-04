@@ -49,6 +49,8 @@ function init_cards(data) {
     }
     const firstFrame = frameSection.querySelector(".frame");
     firstFrame.classList.add("active");
+    cardTemplate.remove();
+    frameTemplate.remove();
     section.appendChild(content);
   }
 }
